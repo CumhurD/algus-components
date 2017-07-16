@@ -1,0 +1,1 @@
+exports.AlgusDrowdownDirective = require('./lib/dropdown.directive').AlgusDrowdownDirective;

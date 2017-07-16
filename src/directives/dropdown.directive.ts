@@ -1,7 +1,7 @@
-import {Directive, OnInit, Input, Output, forwardRef, EventEmitter} from '@angular/core';
+import {Component, OnInit, Input, Output, forwardRef, EventEmitter} from '@angular/core';
 import {ControlValueAccessor, NG_VALUE_ACCESSOR} from '@angular/forms';
 
-@Directive({
+@Component({
     selector: 'lg-dropdown',  
     template: `
         <div class="dropdown lg-dropdown">
